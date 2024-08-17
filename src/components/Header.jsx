@@ -6,7 +6,7 @@ function Header() {
       <div className='flex flex-1 justify-start'>PetShop</div>
 
       <ul className='hidden md:flex flex-1 justify-center gap-12 items-center rounded-full p-4'>
-        <li>Sobre</li>
+        <li>Inicio</li>
         <li>Serviços</li>
         <li>Contato</li>
       </ul>

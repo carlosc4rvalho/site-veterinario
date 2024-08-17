@@ -8,7 +8,7 @@ import Footer from 'components/Footer'
 // local components
 import Banner from './components/Banner'
 import OurServices from './components/OurServices'
-import ContactForm from './components/ContactForm'
+import Form from './components/Form'
 
 function Home() {
   const fieldList = [
@@ -41,7 +41,7 @@ function Home() {
     <Header />
     <Banner />
     <OurServices />
-    <ContactForm data={fieldList} />
+    <Form title='Formulário de Contato' data={fieldList} />
     <Footer />
   </main>
 }
